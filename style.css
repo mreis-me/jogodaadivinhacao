@@ -1,0 +1,51 @@
+*{
+margin-top: none; 
+background-color: #572878;
+}
+
+body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+input{
+  background-color: white;
+}
+
+button.botao{
+  background-color: #3B1C51;
+  font-size: 12px;
+
+  height: 2em;
+  width: 14em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;  
+ 
+  cursor: pointer;
+  transition: .10s ease all;
+}
+
+button.botao p{
+  color: white;
+  
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-decoration-color: transparent;
+}
+
+.fas{
+  position: center;
+  display: flex;
+}
